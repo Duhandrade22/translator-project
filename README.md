@@ -25,6 +25,8 @@ O **Translator App** é uma aplicação web desenvolvida em React com TypeScript
 
 ![Image](https://github.com/user-attachments/assets/8b7b18b8-a637-40d4-b5e1-c71d6a598aea)
 
+![Image](https://github.com/user-attachments/assets/ccdb6d11-54c4-400e-8740-31ee082c4478)
+
 ## 🚀 Tecnologias Utilizadas
 
 Este projeto foi construído com as seguintes tecnologias e ferramentas:
