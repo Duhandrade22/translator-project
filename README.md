@@ -1,6 +1,8 @@
 # 🌐 Translator App
 
 > Aplicação web moderna de tradução de textos com síntese de voz e interface intuitiva
+>
+> 
 
 ![Image](https://github.com/user-attachments/assets/d23260f0-649c-46e4-9e19-7b1569d2a0ab)
 
@@ -18,6 +20,8 @@ O **Translator App** é uma aplicação web desenvolvida em React com TypeScript
 - 🌙 **Design dark mode** elegante e confortável para os olhos
 - 📊 **Contador de caracteres** com limite de 500 caracteres
 - ⚠️ **Tratamento de erros** com mensagens amigáveis ao usuário
+
+
 
 ![Image](https://github.com/user-attachments/assets/8b7b18b8-a637-40d4-b5e1-c71d6a598aea)
 
