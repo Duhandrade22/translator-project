@@ -19,7 +19,7 @@ O **Translator App** é uma aplicação web desenvolvida em React com TypeScript
 - 📊 **Contador de caracteres** com limite de 500 caracteres
 - ⚠️ **Tratamento de erros** com mensagens amigáveis ao usuário
 
-![Tela Principal](./.github/images/main-screen.png)
+![Image](https://github.com/user-attachments/assets/8b7b18b8-a637-40d4-b5e1-c71d6a598aea)
 
 ## 🚀 Tecnologias Utilizadas
 
