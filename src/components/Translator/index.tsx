@@ -81,8 +81,8 @@ const Translator = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center gap-2 md:gap-4">
-      <img src={Logo} alt="logo" className="w-32 h-32" />
+    <div className="flex flex-col justify-center items-center">
+      <img src={Logo} alt="logo" className="w-48 h-48" />
 
       {error && (
         <div className="bg-red-500/10 border border-red-500 text-red-500 px-4 py-2 rounded-lg text-sm">
@@ -92,7 +92,7 @@ const Translator = () => {
 
       <div className="flex flex-col md:flex-row gap-4 mb-8">
         {/* Input de texto para tradução */}
-        <div className="w-full md:w-96 max-w-2xl bg-slate-950 border border-slate-600 rounded-2xl p-4">
+        <div className="w-full md:w-[450px] max-w-2xl bg-slate-950 border border-slate-600 rounded-2xl p-4">
           <div className="flex flex-row gap-3 mb-4 items-center">
             <p className="text-xs text-slate-400 font-medium ">
               Detect Language
@@ -175,7 +175,7 @@ const Translator = () => {
         </div>
 
         {/* Output de tradução */}
-        <div className="w-full md:w-96 max-w-2xl bg-background-overlay border border-slate-600 rounded-2xl p-4">
+        <div className="w-full md:w-[450px] max-w-2xl bg-background-overlay border border-slate-600 rounded-2xl p-4">
           <div className="flex flex-row justify-between items-center">
             <div className="flex flex-row gap-3 mb-4 items-center">
               <button
