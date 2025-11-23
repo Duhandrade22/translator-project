@@ -2,7 +2,7 @@
 
 > Aplicação web moderna de tradução de textos com síntese de voz e interface intuitiva
 
-![Banner do Projeto](./.github/images/banner.png)
+![Image](https://github.com/user-attachments/assets/d23260f0-649c-46e4-9e19-7b1569d2a0ab)
 
 ## 📋 Sobre o Projeto
 
