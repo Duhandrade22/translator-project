@@ -2,7 +2,8 @@
 
 > Aplicação web moderna de tradução de textos com síntese de voz e interface intuitiva
 >
-> 
+## 🔗 Link do projeto
+https://translatorchallenger.netlify.app/
 
 ![Image](https://github.com/user-attachments/assets/d23260f0-649c-46e4-9e19-7b1569d2a0ab)
 
@@ -21,7 +22,7 @@ O **Translator App** é uma aplicação web desenvolvida em React com TypeScript
 - 📊 **Contador de caracteres** com limite de 500 caracteres
 - ⚠️ **Tratamento de erros** com mensagens amigáveis ao usuário
 
-- 🔗https://translatorchallenger.netlify.app/
+
 
 
 
