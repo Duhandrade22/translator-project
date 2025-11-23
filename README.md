@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# 🌐 Translator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aplicação web moderna de tradução de textos com síntese de voz e interface intuitiva
 
-Currently, two official plugins are available:
+![Banner do Projeto](./.github/images/banner.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Sobre o Projeto
 
-## React Compiler
+O **Translator App** é uma aplicação web desenvolvida em React com TypeScript que permite traduzir textos entre diferentes idiomas de forma rápida e intuitiva. O projeto oferece recursos avançados como síntese de voz (Text-to-Speech), cópia de textos e inversão de idiomas com um único clique.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ Funcionalidades Principais
 
-## Expanding the ESLint configuration
+- ✅ **Tradução em tempo real** entre 3 idiomas (Inglês, Francês e Português)
+- 🔊 **Síntese de voz** para ouvir a pronúncia dos textos original e traduzido
+- 📋 **Copiar texto** para a área de transferência com feedback visual
+- 🔄 **Inversão de idiomas** (swap) instantânea entre origem e destino
+- ⚡ **Interface responsiva** e moderna com animações suaves
+- 🌙 **Design dark mode** elegante e confortável para os olhos
+- 📊 **Contador de caracteres** com limite de 500 caracteres
+- ⚠️ **Tratamento de erros** com mensagens amigáveis ao usuário
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Tela Principal](./.github/images/main-screen.png)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Este projeto foi construído com as seguintes tecnologias e ferramentas:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Core
+- **[React](https://react.dev/)** (v19.2.0) - Biblioteca JavaScript para construção de interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** (v5.9.3) - Superset tipado do JavaScript
+- **[Vite](https://vite.dev/)** (v7.2.4) - Build tool e dev server ultra-rápido
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Estilização
+- **[TailwindCSS](https://tailwindcss.com/)** (v3.4.1) - Framework CSS utility-first
+- **[PostCSS](https://postcss.org/)** (v8.5.6) - Ferramenta para transformar CSS
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** (v10.4.22) - Plugin PostCSS para adicionar prefixos de navegadores
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Qualidade de Código
+- **[ESLint](https://eslint.org/)** (v9.39.1) - Linter para JavaScript/TypeScript
+- **[TypeScript ESLint](https://typescript-eslint.io/)** (v8.46.4) - Plugin ESLint para TypeScript
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### APIs e Recursos
+- **[MyMemory Translation API](https://mymemory.translated.net/)** - API gratuita para traduções
+- **[Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)** - API nativa do navegador para síntese de voz
+- **[Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)** - API nativa para copiar textos
+
+## 📦 Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado em sua máquina:
+
+- **Node.js** (versão 18 ou superior)
+- **pnpm** (gerenciador de pacotes recomendado)
+  - Instalação: `npm install -g pnpm`
+
+## 🔧 Instalação e Execução
+
+### 1️⃣ Clone o repositório
+
+git clone https://github.com/seu-usuario/translator.git
+cd translator### 2️⃣ Instale as dependências
+
+pnpm install### 3️⃣ Execute o projeto em modo de desenvolvimento
+
+pnpm devA aplicação estará disponível em: **http://localhost:5173**
+
+### 4️⃣ Build para produção
+
+pnpm build### 5️⃣ Preview da build de produção
+
+pnpm preview## 📁 Estrutura do Projeto
